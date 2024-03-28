@@ -1,11 +1,12 @@
 import './App.css';
 import { useState } from 'react';
 import User from '../components/User';
+import User2 from '../components/User2';
 
 function App() {
 	return (
 		<div className='card'>
-			<User />
+			<User2 />
 		</div>
 	);
 }
