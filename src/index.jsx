@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './apps/App99_exam';
 import reportWebVitals from './reportWebVitals';
-import NestedList from './mui/NestedList';
+import Template from './mui/Template';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div style={{marginTop:'40px', marginLeft: '20px'}}>
-      <NestedList />
+    <div style={{marginTop:'40px', marginLeft: '20px', marginRight: '20px', }}>
+      <Template />
     </div>
   </React.StrictMode>
 );
